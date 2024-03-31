@@ -1,0 +1,2 @@
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\csc.exe
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\Microsoft.CodeAnalysis.dll

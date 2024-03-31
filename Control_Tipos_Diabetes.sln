@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Control_Tipos_Diabetes", "Control_Tipos_Diabetes\Control_Tipos_Diabetes.csproj", "{439EC4F1-1021-499F-ABED-6CE9DEDCB883}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{439EC4F1-1021-499F-ABED-6CE9DEDCB883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{439EC4F1-1021-499F-ABED-6CE9DEDCB883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{439EC4F1-1021-499F-ABED-6CE9DEDCB883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{439EC4F1-1021-499F-ABED-6CE9DEDCB883}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67B745A8-454F-4D5E-9C93-E063A475DFF6}
+	EndGlobalSection
+EndGlobal

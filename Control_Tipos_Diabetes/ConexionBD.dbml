@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SISTEMA_DIABETES" Class="ConexionBDDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="dbo.ALERTAS" Member="ALERTAS">
+    <Type Name="ALERTAS">
+      <Column Name="ID_ALERTA" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ID_PACIENTE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID_MEDIDAS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HORA" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Association Name="MEDIDAS_ALERTAS" Member="MEDIDAS" ThisKey="ID_MEDIDAS" OtherKey="ID_MEDIDA" Type="MEDIDAS" IsForeignKey="true" />
+      <Association Name="PACIENTES_ALERTAS" Member="PACIENTES" ThisKey="ID_PACIENTE" OtherKey="ID_PACIENTE" Type="PACIENTES" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CITAS" Member="CITAS">
+    <Type Name="CITAS">
+      <Column Name="ID_CITA" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FECHA" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="HORA" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="MOTIVO_CITA" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="ID_PACIENTE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="PACIENTES_CITAS" Member="PACIENTES" ThisKey="ID_PACIENTE" OtherKey="ID_PACIENTE" Type="PACIENTES" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DETALLE_EXAMEN" Member="DETALLE_EXAMEN">
+    <Type Name="DETALLE_EXAMEN">
+      <Column Name="ID_EXAMEN" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RESULTADO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="EXAMENES_DETALLE_EXAMEN" Member="EXAMENES" ThisKey="ID_EXAMEN" OtherKey="ID_EXAMEN" Type="EXAMENES" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EMPRESAS" Member="EMPRESAS">
+    <Type Name="EMPRESAS">
+      <Column Name="ID_EMPRESA" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NOMBRE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="DIRECCION" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="TELEFONO" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ENCARGADOS" Member="ENCARGADOS">
+    <Type Name="ENCARGADOS">
+      <Column Name="ID_ENCARGADO" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ID_PACIENTE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NOMBRES" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="APELLIDOS" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PARENTESCO" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="DPI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TELEFONO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="PACIENTES_ENCARGADOS" Member="PACIENTES" ThisKey="ID_PACIENTE" OtherKey="ID_PACIENTE" Type="PACIENTES" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EXAMENES" Member="EXAMENES">
+    <Type Name="EXAMENES">
+      <Column Name="ID_EXAMEN" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NOMBRE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Association Name="EXAMENES_DETALLE_EXAMEN" Member="DETALLE_EXAMEN" ThisKey="ID_EXAMEN" OtherKey="ID_EXAMEN" Type="DETALLE_EXAMEN" />
+      <Association Name="EXAMENES_PACIENTES_EXAMENES" Member="PACIENTES_EXAMENES" ThisKey="ID_EXAMEN" OtherKey="ID_EXAMEN" Type="PACIENTES_EXAMENES" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FACTURA_CITAS" Member="FACTURA_CITAS">
+    <Type Name="FACTURA_CITAS">
+      <Column Name="ID_FACTURA_CITA" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ID_USUARIO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID_PACIENTE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DETALLE" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="TOTAL" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Association Name="PACIENTES_FACTURA_CITAS" Member="PACIENTES" ThisKey="ID_PACIENTE" OtherKey="ID_PACIENTE" Type="PACIENTES" IsForeignKey="true" />
+      <Association Name="USUARIOS_FACTURA_CITAS" Member="USUARIOS" ThisKey="ID_USUARIO" OtherKey="ID_USUARIO" Type="USUARIOS" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HISTORIAL_MEDICO" Member="HISTORIAL_MEDICO">
+    <Type Name="HISTORIAL_MEDICO">
+      <Column Name="ID_HISTORIAL_MEDICO" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ID_PACIENTE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AUMENTO_SED" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ORINA_FRECUENTE" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="FATIGA" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="VISION_BORROSA" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="HERIDAS_LENTAS" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ENFERMEDAD_CARDIACA" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="PRESION_ALTA" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="COLESTEROL_ALTO" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="FAMILIAR_DIABETICO" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="REALIZA_EJERCICIO" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="FRECUENCIA_EJERCICIO" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="COME_AZUCARES" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CAMBIO_APETITO" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="DIABETES_GESTIONAL" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="BEBE_SOBREPESO" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="PACIENTES_HISTORIAL_MEDICO" Member="PACIENTES" ThisKey="ID_PACIENTE" OtherKey="ID_PACIENTE" Type="PACIENTES" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MEDICAMENTOS" Member="MEDICAMENTOS">
+    <Type Name="MEDICAMENTOS">
+      <Column Name="ID_MEDICAMENTO" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NOMBRE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Association Name="MEDICAMENTOS_MEDIDAS" Member="MEDIDAS" ThisKey="ID_MEDICAMENTO" OtherKey="ID_MEDICAMENTO" Type="MEDIDAS" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MEDIDAS" Member="MEDIDAS">
+    <Type Name="MEDIDAS">
+      <Column Name="ID_TIPO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID_MEDICAMENTO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MEDIDA" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ID_MEDIDA" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Association Name="MEDIDAS_ALERTAS" Member="ALERTAS" ThisKey="ID_MEDIDA" OtherKey="ID_MEDIDAS" Type="ALERTAS" />
+      <Association Name="MEDICAMENTOS_MEDIDAS" Member="MEDICAMENTOS" ThisKey="ID_MEDICAMENTO" OtherKey="ID_MEDICAMENTO" Type="MEDICAMENTOS" IsForeignKey="true" />
+      <Association Name="TIPO_DIABETES_MEDIDAS" Member="TIPO_DIABETES" ThisKey="ID_TIPO" OtherKey="ID_TIPO" Type="TIPO_DIABETES" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PACIENTES" Member="PACIENTES">
+    <Type Name="PACIENTES">
+      <Column Name="ID_PACIENTE" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NOMBRES" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="APELLIDOS" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="EDAD" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GENERO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FECHA_NACIMIENTO" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DIRECCION" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="TELEFONO1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TELEFONO2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FECHA_REGISTRO" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="PACIENTES_ALERTAS" Member="ALERTAS" ThisKey="ID_PACIENTE" OtherKey="ID_PACIENTE" Type="ALERTAS" />
+      <Association Name="PACIENTES_CITAS" Member="CITAS" ThisKey="ID_PACIENTE" OtherKey="ID_PACIENTE" Type="CITAS" />
+      <Association Name="PACIENTES_ENCARGADOS" Member="ENCARGADOS" ThisKey="ID_PACIENTE" OtherKey="ID_PACIENTE" Type="ENCARGADOS" />
+      <Association Name="PACIENTES_FACTURA_CITAS" Member="FACTURA_CITAS" ThisKey="ID_PACIENTE" OtherKey="ID_PACIENTE" Type="FACTURA_CITAS" />
+      <Association Name="PACIENTES_HISTORIAL_MEDICO" Member="HISTORIAL_MEDICO" ThisKey="ID_PACIENTE" OtherKey="ID_PACIENTE" Type="HISTORIAL_MEDICO" />
+      <Association Name="PACIENTES_PACIENTES_EXAMENES" Member="PACIENTES_EXAMENES" ThisKey="ID_PACIENTE" OtherKey="ID_PACIENTE" Type="PACIENTES_EXAMENES" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PACIENTES_EXAMENES" Member="PACIENTES_EXAMENES">
+    <Type Name="PACIENTES_EXAMENES">
+      <Column Name="ID_PACIENTE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID_EXAMEN" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="PACIENTES_PACIENTES_EXAMENES" Member="PACIENTES" ThisKey="ID_PACIENTE" OtherKey="ID_PACIENTE" Type="PACIENTES" IsForeignKey="true" />
+      <Association Name="EXAMENES_PACIENTES_EXAMENES" Member="EXAMENES" ThisKey="ID_EXAMEN" OtherKey="ID_EXAMEN" Type="EXAMENES" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TIPO_DIABETES" Member="TIPO_DIABETES">
+    <Type Name="TIPO_DIABETES">
+      <Column Name="ID_TIPO" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NOMBRE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="TIPO_DIABETES_MEDIDAS" Member="MEDIDAS" ThisKey="ID_TIPO" OtherKey="ID_TIPO" Type="MEDIDAS" />
+    </Type>
+  </Table>
+  <Table Name="dbo.USUARIOS" Member="USUARIOS">
+    <Type Name="USUARIOS">
+      <Column Name="ID_USUARIO" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NOMBRES" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="APELLIDOS" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="USUARIO" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CONTRASEÑA" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="USUARIOS_FACTURA_CITAS" Member="FACTURA_CITAS" ThisKey="ID_USUARIO" OtherKey="ID_USUARIO" Type="FACTURA_CITAS" />
+    </Type>
+  </Table>
+</Database>
