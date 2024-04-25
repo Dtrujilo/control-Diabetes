@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PageMaster/MP.Master" AutoEventWireup="true" CodeBehind="CrudFrmDiagnosticoDiabetes.aspx.cs" Inherits="Control_Tipos_Diabetes.CRUD.CrudFrmDiagnosticoDiabetes" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
@@ -51,25 +52,22 @@
                     <label for="glucosaAzar">Nivel de tolerancia oral a la glucosa:</label>
                     <asp:TextBox ID="txttolerancia" runat="server" type="number" class="form-control" placeholder="Ingrese el nivel de glucosa"></asp:TextBox>
                 </div>
-                <div class="form-group">
-                    <label for="resultado">Tipo de Diabetes:</label>
-                    <asp:TextBox ID="txtresultado" runat="server" type="text" class="form-control" placeholder="Resultado de examenes"></asp:TextBox>
-                </div>
+             
                 <br />
 
-                <button id="btncreate" type="button" runat="server" class="button is-primary has-text-white" visible="false">
+                <button id="btncreate" type="button" runat="server" class="button is-primary has-text-white" visible="false" onserverclick="btncreate_ServerClick">
                     <i class="fa fa-save" style="margin-right: 0.5em;"></i>
                     Guardar
                 </button>
-                <button id="btnupdate" type="button" runat="server" class="button is-warning has-text-white" visible="false">
+               <%-- <button id="btnupdate" type="button" runat="server" class="button is-warning has-text-white" visible="false" onserverclick="btnupdate_ServerClick">
                     <i class="fa fa-edit" style="margin-right: 0.5em;"></i>
                     Editar
                 </button>
-                <button id="btndelete" type="button" runat="server" class="button is-danger has-text-white" visible="false">
+                <button id="btndelete" type="button" runat="server" class="button is-danger has-text-white" visible="false" onserverclick="btndelete_ServerClick">
                     <i class="fa fa-trash" style="margin-right: 0.5em;"></i>
                     Eliminar
-                </button>
-                <button id="btnvolver" type="button" runat="server" class="button is-dark has-text-white" visible="true">
+                </button>--%>
+                <button id="btnvolver" type="button" runat="server" class="button is-dark has-text-white" visible="true" onserverclick="btnvolver_ServerClick">
                     <i class="fa fa-arrow-left" style="margin-right: 0.5em;"></i>
                     Volver
                 </button>

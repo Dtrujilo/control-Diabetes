@@ -86,10 +86,10 @@ namespace Control_Tipos_Diabetes.CRUD
 
                 if (cmd.ExecuteNonQuery() > 0)
                 {
-                    MostrarMensaje("Diabetes agregado correctamente.");
+                    /*logica de redireccion*/
+                    MostrarMensajeYRedirigir("Diabetes agregado correctamente.", "../pages/FormularioTipoDiabetes.aspx");
                     con.Close();
-                    /*buscar logica de redireccionamiento*/
-                   // Response.Redirect("../pages/FormularioTipoDiabetes.aspx");
+                   
 
                 }
 
@@ -134,6 +134,14 @@ namespace Control_Tipos_Diabetes.CRUD
         public void MostrarMensaje(string mensaje)
         {
             Page.ClientScript.RegisterStartupScript(this.GetType(), "MensajeScript", $"alert('{mensaje}');", true);
+        }
+        /*mensaje de rediccion tiene que especificar*/
+        public void MostrarMensajeYRedirigir(string mensaje, string url)
+        {
+            string script = $@"alert('{mensaje}');
+                      window.location = '{url}';";
+
+            ScriptManager.RegisterStartupScript(this, this.GetType(), "MensajeScript", script, true);
         }
 
 

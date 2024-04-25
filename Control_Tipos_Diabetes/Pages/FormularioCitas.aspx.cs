@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -9,9 +12,57 @@ namespace Control_Tipos_Diabetes.Pages
 {
     public partial class FormularioCitas : System.Web.UI.Page
     {
+        SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["SISTEMA_DIABETESConnectionString"].ToString());
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                BindGridView(); // Llama al método para cargar los datos en tu GridView al cargar la página por primera vez
 
+            }
+        }
+        void BindGridView()
+        {
+            SqlCommand cmd = new SqlCommand("sp_load_citas", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            con.Open();
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            gvlistadecitas.DataSource = dt;
+            gvlistadecitas.DataBind();
+            con.Close();
+        }
+        protected void btnread_ServerClick(object sender, EventArgs e)
+        {
+            string id;
+            System.Web.UI.HtmlControls.HtmlButton BtnConsultar = (System.Web.UI.HtmlControls.HtmlButton)sender;
+            GridViewRow selectedrow = (GridViewRow)BtnConsultar.NamingContainer;
+            id = selectedrow.Cells[1].Text;
+            Response.Redirect("~/CRUD/CrudFrmCitas.aspx?id=" + id + "&op=R");
+        }
+
+        protected void btnupdate_ServerClick(object sender, EventArgs e)
+        {
+            string id;
+            System.Web.UI.HtmlControls.HtmlButton BtnConsultar = (System.Web.UI.HtmlControls.HtmlButton)sender;
+            GridViewRow selectedrow = (GridViewRow)BtnConsultar.NamingContainer;
+            id = selectedrow.Cells[1].Text;
+            Response.Redirect("~/CRUD/CrudFrmCitas.aspx?id=" + id + "&op=U");
+        }
+
+        protected void btndelete_ServerClick(object sender, EventArgs e)
+        {
+            string id;
+            System.Web.UI.HtmlControls.HtmlButton BtnConsultar = (System.Web.UI.HtmlControls.HtmlButton)sender;
+            GridViewRow selectedrow = (GridViewRow)BtnConsultar.NamingContainer;
+            id = selectedrow.Cells[1].Text;
+            Response.Redirect("~/CRUD/CrudFrmCitas.aspx?id=" + id + "&op=D");
+        }
+
+        protected void btnsave_ServerClick(object sender, EventArgs e)
+        {
+            Response.Redirect("~/CRUD/CrudFrmCitas.aspx?op=C");
         }
     }
 }

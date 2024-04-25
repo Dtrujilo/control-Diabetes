@@ -10,6 +10,182 @@
     <link href="../fontawesome-free-6.5.1-web/css/all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
     <link href="../styles/MPStyle.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        #sidebar {
+            min-width: 70px;
+            max-width: 70px;
+            background-color: #343a40;
+            color: #fff;
+            transition: all 0.5s;
+            position: fixed;
+            height: 100vh;
+            z-index: 1000;
+        }
+
+            #sidebar.active {
+                min-width: 250px;
+                max-width: 250px;
+            }
+            /*/parte superior/*/
+            #sidebar .sidebar-header {
+                padding: 10px;
+                background-color: #4da188;
+            }
+
+                #sidebar .sidebar-header i {
+                    padding: 10px;
+                    font-size: 20px;
+                    margin-right: 10px;
+                }
+
+                #sidebar .sidebar-header span {
+                    display: none;
+                }
+
+                #sidebar .sidebar-header span, #sidebar .sidebar-header i {
+                    color: #fff;
+                }
+
+            #sidebar.active .sidebar-header span {
+                display: inline;
+            }
+
+            #sidebar ul.components {
+                padding: 10px 0;
+            }
+
+
+            #sidebar ul li a {
+                padding: 10px;
+                font-size: 1.1em;
+                display: block;
+                color: #ccc;
+                text-decoration: none;
+            }
+
+                #sidebar ul li a i {
+                    padding: 10px;
+                    font-size: 20px;
+                    margin-right: 10px;
+                }
+
+                #sidebar ul li a span {
+                    display: none;
+                }
+
+            #sidebar.active ul li a span {
+                display: inline;
+            }
+
+            #sidebar ul li a:hover {
+                color: #000;
+                background-color: #72e0c0;
+            }
+
+        #content {
+            padding: 20px;
+            margin-left: 70px;
+            transition: all 0.5s;
+        }
+
+            #content.active {
+                margin-left: 250px;
+            }
+
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+        @media (max-width: 750px) {
+            #sidebar {
+                margin-left: -70px;
+            }
+
+                #sidebar.active {
+                    margin-left: 0;
+                }
+
+            #content {
+                margin-left: 0;
+            }
+
+                #content.active {
+                    margin-left: 250px;
+                }
+        }
+
+        #sidebar ul li a.linkActivo {
+            font-weight: bold;
+            color: #000;
+            background-color: #72e0c0;
+        }
+
+        /* Estilos Fondo Welcome */
+        .fondo {
+            height: 86.7vh;
+            background-image: url(../img/Diseño-Diabetes.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .contenido-fondo {
+            text-align: center;
+            color: #fff;
+            max-width: 600px;
+            z-index: 1;
+        }
+
+        .titulo {
+            font-size: 3rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+
+        .subtitulo {
+            font-size: 1.8rem;
+            font-weight: normal;
+        }
+
+        .titulo, .subtitulo {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .floating-text {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(10px);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+
+            100% {
+                transform: translateY(10px);
+            }
+        }
+    </style>
     <title>
         <asp:ContentPlaceHolder ID="title" runat="server">
         </asp:ContentPlaceHolder>
@@ -21,30 +197,37 @@
     <form id="form1" runat="server">
         <div>
             <div class="wrapper">
-                <nav id="sidebar" class="active">
+                <nav id="sidebar" class="sidebar active">
                     <div class="sidebar-header">
-                        <i class="fa-solid fa-house"></i>
-                        <span>Control diabetes</span>
+                        <i class="fa-solid fa-pills"></i>
+                        <span class="fw-bold">CONTROL DIABETICO</span>
                     </div>
                     <ul class="components">
 
                         <li>
-                            <a href="../Pages/Welcome.aspx"><i class="fa-solid fa-house"></i><span>Inicio</span></a>
+                            <a href="../Pages/Welcome.aspx" class="linkActivo"><i class="fa-solid fa-house"></i><span>Inicio</span></a>
                         </li>
                         <li>
-                            <a href="../Pages/FormularioTipoDiabetes.aspx"><i class="fas fa-briefcase"></i><span>Tipo Diabetes</span></a>
+                            <a href="FormularioCitas.aspx"><i class="fa-solid fa-calendar-days"></i><span>Citas</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fas fa-image"></i><span>Portfolio</span></a>
+                            <a href="FormularioInfoPaciente.aspx"><i class="fa-solid fa-users"></i><span>Pacientes</span></a>
+                        </li>
+                        <li>
+                            <a href="FormularioDiagnosticoDiabetes.aspx"><i class="fa-solid fa-stethoscope"></i><span>Diagnostico</span></a>
+                        </li>
+                        <li>
+                            <a href="FormularioTipoDiabetes.aspx"><i class="fas fa-sitemap"></i><span>Tipo Diabetes</span></a>
                         </li>
 
                         <li>
-                            <a href="#"><i class="fas fa-user"></i><span>Perfil</span></a>
+                            <a href="FormularioMedicamentos.aspx"><i class="fa-solid fa-suitcase-medical"></i><span>Medicamentos</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fas fa-cog"></i><span>Configuración</span></a>
+                            <a href="FormularioUsuarios.aspx"><i class="fa-solid fa-user"></i><span>Usuarios</span></a>
                         </li>
                     </ul>
+
                 </nav>
                 <div id="content" class="active">
                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -70,7 +253,24 @@
                     $('#sidebarCollapse').on('click', function () {
                         $('#sidebar, #content').toggleClass('active');
                     });
+
+                    const urlActiva = window.location.href.toLowerCase();
+                    console.log("URL activa:", urlActiva);
+                    const linksSidebar = document.querySelectorAll('#sidebar ul li a');
+
+                    linksSidebar.forEach(link => {
+                        const enlaceHref = link.getAttribute('href').toLowerCase();
+                        console.log("Enlace HREF:", enlaceHref);
+                        if (urlActiva.endsWith(enlaceHref) || urlActiva.endsWith(enlaceHref.replace('.aspx', ''))) {
+                            console.log("Enlace activo encontrado:", link);
+                            link.classList.add('linkActivo');
+                        } else {
+                            console.log("Enlace no activo:", link);
+                            link.classList.remove('linkActivo');
+                        }
+                    });
                 });
+
             </script>
 
         </div>

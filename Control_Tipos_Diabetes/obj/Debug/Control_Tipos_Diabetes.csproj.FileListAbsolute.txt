@@ -1,2 +1,118 @@
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\Control_Tipos_Diabetes.dll.config
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\Control_Tipos_Diabetes.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\Control_Tipos_Diabetes.pdb
 C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\csc.exe
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\csc.exe.config
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\csc.rsp
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\csi.exe
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\csi.exe.config
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\csi.rsp
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
 C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.AppContext.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Console.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.IO.Compression.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Net.Http.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Net.Sockets.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.ValueTuple.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Xml.XPath.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\vbc.exe
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\vbc.exe.config
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\vbc.rsp
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\VBCSCompiler.exe
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\obj\Debug\Control_Tipos_Diabetes.csproj.AssemblyReference.cache
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\obj\Debug\Control_Tipos_Diabetes.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\obj\Debug\Control_.27C79067.Up2Date
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\obj\Debug\Control_Tipos_Diabetes.dll
+C:\Users\kevin\Documents\C# 2024\Control_Tipos_Diabetes\Control_Tipos_Diabetes\obj\Debug\Control_Tipos_Diabetes.pdb
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\Control_Tipos_Diabetes.dll.config
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\Control_Tipos_Diabetes.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\Control_Tipos_Diabetes.pdb
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\csc.exe
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\csc.exe.config
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\csc.rsp
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\csi.exe
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\csi.exe.config
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\csi.rsp
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.AppContext.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Console.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.IO.Compression.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Net.Http.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.ValueTuple.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\vbc.exe
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\vbc.exe.config
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\vbc.rsp
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\VBCSCompiler.exe
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\obj\Debug\Control_Tipos_Diabetes.csproj.AssemblyReference.cache
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\obj\Debug\Control_Tipos_Diabetes.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\obj\Debug\Control_.27C79067.Up2Date
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\obj\Debug\Control_Tipos_Diabetes.dll
+C:\Users\Alejandro\OneDrive\Escritorio\Control_Tipos_Diabetes\Control_Tipos_Diabetes\obj\Debug\Control_Tipos_Diabetes.pdb

@@ -29,39 +29,33 @@
                 <div class="form-group with-separator">
                     <div class="form-group">
                         <label for="fecha">Fecha de la cita:</label>
-                        <asp:TextBox ID="txtfecha" runat="server" type="date" CssClass="form-control"></asp:TextBox>
-                    </div>
-                    <div class="form-group">
-                        <label for="fecha">Horario:</label>
-                        <asp:TextBox ID="txthorario" runat="server" type="time" CssClass="form-control"></asp:TextBox>
+                        <asp:TextBox ID="txtfecha" type="date" runat="server" CssClass="form-control"></asp:TextBox>
                     </div>
                 </div>
-
-
                 <div class="form-group">
                     <label for="nombre">Nombre del paciente:</label>
                     <asp:TextBox ID="txtnombre" runat="server" type="text" CssClass="form-control" placeholder="Escriba Nombre"></asp:TextBox>
                 </div>
-
+                
                 <!-- Aquí puedes agregar más campos de historial médico utilizando checkboxes, inputs, select, etc. -->
                 <h4>Motivo de la Cita</h4>
                 <div class="form-group">
                     <asp:TextBox ID="txtmotivo" runat="server" type="text" CssClass="form-control" placeholder="Por favor, describa brevemente el motivo de su cita:"></asp:TextBox>
                 </div>
                 <br />
-                <button id="btncreate" type="button" runat="server" class="button is-primary has-text-white" visible="false" >
+                <button id="btncreate" type="button" runat="server" class="button is-primary has-text-white" visible="false" onserverclick="btncreate_ServerClick" >
                     <i class="fa fa-save" style="margin-right: 0.5em;"></i>
                     Guardar
                 </button>
-                <button id="btnupdate" type="button" runat="server" class="button is-warning has-text-white" visible="false" >
+                <button id="btnupdate" type="button" runat="server" class="button is-warning has-text-white" visible="false" onserverclick="btnupdate_ServerClick" >
                     <i class="fa fa-edit" style="margin-right: 0.5em;"></i>
                     Editar
                 </button>
-                <button id="btndelete" type="button" runat="server" class="button is-danger has-text-white" visible="false" >
+                <button id="btndelete" type="button" runat="server" class="button is-danger has-text-white" visible="false" onserverclick="btndelete_ServerClick" >
                     <i class="fa fa-trash" style="margin-right: 0.5em;"></i>
                     Eliminar
                 </button>
-                <button id="btnvolver" type="button" runat="server" class="button is-dark has-text-white" visible="true" >
+                <button id="btnvolver" type="button" runat="server" class="button is-dark has-text-white" visible="true" onserverclick="btnvolver_ServerClick" >
                     <i class="fa fa-arrow-left" style="margin-right: 0.5em;"></i>
                     Volver
                 </button>

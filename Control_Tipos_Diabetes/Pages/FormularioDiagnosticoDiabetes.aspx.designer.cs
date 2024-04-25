@@ -24,12 +24,12 @@ namespace Control_Tipos_Diabetes.Pages
         protected global::System.Web.UI.HtmlControls.HtmlButton btnsave;
 
         /// <summary>
-        /// Control gvlistadecitas.
+        /// Control gvdiagnostico.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gvlistadecitas;
+        protected global::System.Web.UI.WebControls.GridView gvdiagnostico;
     }
 }

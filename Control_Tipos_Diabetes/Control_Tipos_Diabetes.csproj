@@ -2147,12 +2147,15 @@
     <Content Include="fontawesome-free-6.5.1-web\svgs\solid\yen-sign.svg" />
     <Content Include="fontawesome-free-6.5.1-web\svgs\solid\yin-yang.svg" />
     <Content Include="fontawesome-free-6.5.1-web\svgs\solid\z.svg" />
+    <Content Include="img\Diseño-Diabetes.png" />
     <Content Include="Pages\FormularioCitas.aspx" />
     <Content Include="Pages\FormularioDiagnosticoDiabetes.aspx" />
     <Content Include="Pages\FormularioHistorialMedico.aspx" />
     <Content Include="Pages\FormularioInfoPaciente.aspx" />
+    <Content Include="Pages\FormularioAsignarMedicamentos.aspx" />
     <Content Include="Pages\FormularioMedicamentos.aspx" />
     <Content Include="Pages\FormularioTipoDiabetes.aspx" />
+    <Content Include="Pages\Login.aspx" />
     <Content Include="Pages\Welcome.aspx" />
     <Content Include="styles\MPStyle.css" />
     <Content Include="Web.config" />
@@ -2240,6 +2243,13 @@
     <Compile Include="Pages\FormularioInfoPaciente.aspx.designer.cs">
       <DependentUpon>FormularioInfoPaciente.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pages\FormularioAsignarMedicamentos.aspx.cs">
+      <DependentUpon>FormularioAsignarMedicamentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\FormularioAsignarMedicamentos.aspx.designer.cs">
+      <DependentUpon>FormularioAsignarMedicamentos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\FormularioMedicamentos.aspx.cs">
       <DependentUpon>FormularioMedicamentos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2253,6 +2263,13 @@
     </Compile>
     <Compile Include="Pages\FormularioTipoDiabetes.aspx.designer.cs">
       <DependentUpon>FormularioTipoDiabetes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Welcome.aspx.cs">
       <DependentUpon>Welcome.aspx</DependentUpon>

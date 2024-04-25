@@ -42,15 +42,6 @@ namespace Control_Tipos_Diabetes.CRUD
         protected global::System.Web.UI.WebControls.TextBox txtapellidoPaciente;
 
         /// <summary>
-        /// Control txtfecharegistro.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtfecharegistro;
-
-        /// <summary>
         /// Control txtfechanacimiento.
         /// </summary>
         /// <remarks>

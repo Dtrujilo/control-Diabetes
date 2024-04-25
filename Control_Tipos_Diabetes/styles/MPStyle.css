@@ -107,3 +107,64 @@
             margin-left: 250px;
         }
 }
+
+#sidebar ul li a.linkActivo {
+    font-weight: bold;
+    color: #000;
+    background-color: #72e0c0;
+}
+
+/* Estilos Fondo Welcome */
+.fondo {
+    height: 86.7vh;
+    background-image: url(../img/Diseño-Diabetes.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.contenido-fondo {
+    text-align: center;
+    color: #fff;
+    max-width: 600px;
+    z-index: 1;
+}
+
+.titulo {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.subtitulo {
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+.titulo, .subtitulo {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.floating-text {
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(10px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(10px);
+    }
+}

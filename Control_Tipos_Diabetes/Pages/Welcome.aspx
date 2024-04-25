@@ -5,6 +5,10 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="body" runat="server">
-    <br />
-    <h1>hola mundo</h1>
+    <div class="fondo">
+        <div class="contenido-fondo">
+            <h1 class="titulo floating-text">Bienvenido a la aplicación de control de diabetes</h1>
+            <p class="subtitulo floating-text">Te ayudamos a tener una mejor vida</p>
+        </div>
+    </div>
 </asp:Content>

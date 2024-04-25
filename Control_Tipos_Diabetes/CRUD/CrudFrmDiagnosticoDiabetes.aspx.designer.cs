@@ -78,15 +78,6 @@ namespace Control_Tipos_Diabetes.CRUD
         protected global::System.Web.UI.WebControls.TextBox txttolerancia;
 
         /// <summary>
-        /// Control txtresultado.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtresultado;
-
-        /// <summary>
         /// Control btncreate.
         /// </summary>
         /// <remarks>
@@ -94,24 +85,6 @@ namespace Control_Tipos_Diabetes.CRUD
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlButton btncreate;
-
-        /// <summary>
-        /// Control btnupdate.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton btnupdate;
-
-        /// <summary>
-        /// Control btndelete.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton btndelete;
 
         /// <summary>
         /// Control btnvolver.
