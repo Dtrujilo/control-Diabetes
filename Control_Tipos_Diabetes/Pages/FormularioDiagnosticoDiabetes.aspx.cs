@@ -31,6 +31,20 @@ namespace Control_Tipos_Diabetes.Pages
             gvdiagnostico.DataBind();
             con.Close();
         }
+
+        protected void btnassignmed_ServerClick(object sender, EventArgs e)
+        {
+            // Obtener el ID del paciente seleccionado
+            string id;
+            System.Web.UI.HtmlControls.HtmlButton BtnAssignMed = (System.Web.UI.HtmlControls.HtmlButton)sender;
+            GridViewRow selectedrow = (GridViewRow)BtnAssignMed.NamingContainer;
+            id = selectedrow.Cells[1].Text;
+
+            // Redireccionar al formulario de asignación de medicamentos con el ID del paciente como parámetro en la URL
+            Response.Redirect("~/Pages/FormularioAsignarMedicamentos.aspx?idPaciente=" + id);
+        }
+
+
         protected void gvdiagnostico_PageIndexChanging(object sender, GridViewPageEventArgs e)
         {
             gvdiagnostico.PageIndex = e.NewPageIndex;

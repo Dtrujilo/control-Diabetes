@@ -40,14 +40,12 @@
                                         <i class="fa fa-eye" style="margin-right: 0.5em;"></i>
                                         Leer
                                     </button>
-                                    <button id="btnmedic" type="button" runat="server" class="button form-control-sm is-link has-text-white">
-                                        <a href="FormularioAsignarMedicamentos.aspx?idPaciente=<%= ObtenerIdPaciente() %>" class="text-light">
-                                            <i class="fa-solid fa-notes-medical" style="margin-right: 0.5em;"></i>
-                                            Asignar Med
-                                        </a>
+                                    <button id="btnassignmed" type="button" runat="server" class="button form-control-sm is-info has-text-white" onserverclick="btnassignmed_ServerClick">
+                                        <i class="fa fa-pills" style="margin-right: 0.5em;"></i>
+                                        Asignar Med
                                     </button>
                                     <button id="Button1" type="button" runat="server" class="button form-control-sm is-link has-text-white">
-                                        <a href="FormularioAsignarMedicamentos.aspx" class="text-light">
+                                        <a href="FormularioVerMedicamentosAsignados.aspx" class="text-light">
                                             <i class="fa-solid fa-notes-medical" style="margin-right: 0.5em;"></i>
                                             Ver Med
                                         </a>

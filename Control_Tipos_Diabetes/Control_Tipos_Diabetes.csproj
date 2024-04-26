@@ -2148,6 +2148,7 @@
     <Content Include="fontawesome-free-6.5.1-web\svgs\solid\yin-yang.svg" />
     <Content Include="fontawesome-free-6.5.1-web\svgs\solid\z.svg" />
     <Content Include="img\Diseño-Diabetes.png" />
+    <Content Include="Pages\FormularioVerMedicamentosAsignados.aspx" />
     <Content Include="Pages\FormularioCitas.aspx" />
     <Content Include="Pages\FormularioDiagnosticoDiabetes.aspx" />
     <Content Include="Pages\FormularioHistorialMedico.aspx" />
@@ -2214,6 +2215,13 @@
     </Compile>
     <Compile Include="PageMaster\MP.Master.designer.cs">
       <DependentUpon>MP.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\FormularioVerMedicamentosAsignados.aspx.cs">
+      <DependentUpon>FormularioVerMedicamentosAsignados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\FormularioVerMedicamentosAsignados.aspx.designer.cs">
+      <DependentUpon>FormularioVerMedicamentosAsignados.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\FormularioCitas.aspx.cs">
       <DependentUpon>FormularioCitas.aspx</DependentUpon>

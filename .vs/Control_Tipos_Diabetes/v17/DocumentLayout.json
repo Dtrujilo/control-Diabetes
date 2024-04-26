@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Alejandro\\OneDrive\\Escritorio\\Control_Tipos_Diabetes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{439EC4F1-1021-499F-ABED-6CE9DEDCB883}|Control_Tipos_Diabetes\\Control_Tipos_Diabetes.csproj|c:\\users\\alejandro\\onedrive\\escritorio\\control_tipos_diabetes\\control_tipos_diabetes\\pages\\formulariodiagnosticodiabetes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{439EC4F1-1021-499F-ABED-6CE9DEDCB883}|Control_Tipos_Diabetes\\Control_Tipos_Diabetes.csproj|solutionrelative:control_tipos_diabetes\\pages\\formulariodiagnosticodiabetes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{439EC4F1-1021-499F-ABED-6CE9DEDCB883}|Control_Tipos_Diabetes\\Control_Tipos_Diabetes.csproj|C:\\Users\\Alejandro\\OneDrive\\Escritorio\\Control_Tipos_Diabetes\\control_tipos_diabetes\\pages\\formularioasignarmedicamentos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{439EC4F1-1021-499F-ABED-6CE9DEDCB883}|Control_Tipos_Diabetes\\Control_Tipos_Diabetes.csproj|solutionrelative:control_tipos_diabetes\\pages\\formularioasignarmedicamentos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{439EC4F1-1021-499F-ABED-6CE9DEDCB883}|Control_Tipos_Diabetes\\Control_Tipos_Diabetes.csproj|c:\\users\\alejandro\\onedrive\\escritorio\\control_tipos_diabetes\\control_tipos_diabetes\\pages\\formulariovermedicamentosasignados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{439EC4F1-1021-499F-ABED-6CE9DEDCB883}|Control_Tipos_Diabetes\\Control_Tipos_Diabetes.csproj|solutionrelative:control_tipos_diabetes\\pages\\formulariovermedicamentosasignados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{439EC4F1-1021-499F-ABED-6CE9DEDCB883}|Control_Tipos_Diabetes\\Control_Tipos_Diabetes.csproj|C:\\Users\\Alejandro\\OneDrive\\Escritorio\\Control_Tipos_Diabetes\\control_tipos_diabetes\\pages\\formularioasignarmedicamentos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{439EC4F1-1021-499F-ABED-6CE9DEDCB883}|Control_Tipos_Diabetes\\Control_Tipos_Diabetes.csproj|solutionrelative:control_tipos_diabetes\\pages\\formularioasignarmedicamentos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{439EC4F1-1021-499F-ABED-6CE9DEDCB883}|Control_Tipos_Diabetes\\Control_Tipos_Diabetes.csproj|c:\\users\\alejandro\\onedrive\\escritorio\\control_tipos_diabetes\\control_tipos_diabetes\\pages\\formularioasignarmedicamentos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{439EC4F1-1021-499F-ABED-6CE9DEDCB883}|Control_Tipos_Diabetes\\Control_Tipos_Diabetes.csproj|solutionrelative:control_tipos_diabetes\\pages\\formularioasignarmedicamentos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{439EC4F1-1021-499F-ABED-6CE9DEDCB883}|Control_Tipos_Diabetes\\Control_Tipos_Diabetes.csproj|c:\\users\\alejandro\\onedrive\\escritorio\\control_tipos_diabetes\\control_tipos_diabetes\\pages\\formulariodiagnosticodiabetes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{439EC4F1-1021-499F-ABED-6CE9DEDCB883}|Control_Tipos_Diabetes\\Control_Tipos_Diabetes.csproj|solutionrelative:control_tipos_diabetes\\pages\\formulariodiagnosticodiabetes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{439EC4F1-1021-499F-ABED-6CE9DEDCB883}|Control_Tipos_Diabetes\\Control_Tipos_Diabetes.csproj|C:\\Users\\Alejandro\\OneDrive\\Escritorio\\Control_Tipos_Diabetes\\control_tipos_diabetes\\pagemaster\\mp.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{439EC4F1-1021-499F-ABED-6CE9DEDCB883}|Control_Tipos_Diabetes\\Control_Tipos_Diabetes.csproj|solutionrelative:control_tipos_diabetes\\pagemaster\\mp.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+      "AbsoluteMoniker": "D:0:0:{439EC4F1-1021-499F-ABED-6CE9DEDCB883}|Control_Tipos_Diabetes\\Control_Tipos_Diabetes.csproj|c:\\users\\alejandro\\onedrive\\escritorio\\control_tipos_diabetes\\control_tipos_diabetes\\pages\\formulariovermedicamentosasignados.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{439EC4F1-1021-499F-ABED-6CE9DEDCB883}|Control_Tipos_Diabetes\\Control_Tipos_Diabetes.csproj|solutionrelative:control_tipos_diabetes\\pages\\formulariovermedicamentosasignados.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +38,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "FormularioVerMedicamentosAsignados.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\OneDrive\\Escritorio\\Control_Tipos_Diabetes\\Control_Tipos_Diabetes\\Pages\\FormularioVerMedicamentosAsignados.aspx.cs",
+              "RelativeDocumentMoniker": "Control_Tipos_Diabetes\\Pages\\FormularioVerMedicamentosAsignados.aspx.cs",
+              "ToolTip": "C:\\Users\\Alejandro\\OneDrive\\Escritorio\\Control_Tipos_Diabetes\\Control_Tipos_Diabetes\\Pages\\FormularioVerMedicamentosAsignados.aspx.cs",
+              "RelativeToolTip": "Control_Tipos_Diabetes\\Pages\\FormularioVerMedicamentosAsignados.aspx.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAADwvxwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T02:25:14.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormularioVerMedicamentosAsignados.aspx",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\OneDrive\\Escritorio\\Control_Tipos_Diabetes\\Control_Tipos_Diabetes\\Pages\\FormularioVerMedicamentosAsignados.aspx",
+              "RelativeDocumentMoniker": "Control_Tipos_Diabetes\\Pages\\FormularioVerMedicamentosAsignados.aspx",
+              "ToolTip": "C:\\Users\\Alejandro\\OneDrive\\Escritorio\\Control_Tipos_Diabetes\\Control_Tipos_Diabetes\\Pages\\FormularioVerMedicamentosAsignados.aspx",
+              "RelativeToolTip": "Control_Tipos_Diabetes\\Pages\\FormularioVerMedicamentosAsignados.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-26T02:23:30.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "FormularioDiagnosticoDiabetes.aspx",
               "DocumentMoniker": "C:\\Users\\Alejandro\\OneDrive\\Escritorio\\Control_Tipos_Diabetes\\Control_Tipos_Diabetes\\Pages\\FormularioDiagnosticoDiabetes.aspx",
               "RelativeDocumentMoniker": "Control_Tipos_Diabetes\\Pages\\FormularioDiagnosticoDiabetes.aspx",
@@ -42,25 +72,25 @@
               "RelativeToolTip": "Control_Tipos_Diabetes\\Pages\\FormularioDiagnosticoDiabetes.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-04-25T15:21:02.991Z",
+              "WhenOpened": "2024-04-26T02:23:04.723Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FormularioAsignarMedicamentos.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Alejandro\\OneDrive\\Escritorio\\Control_Tipos_Diabetes\\Control_Tipos_Diabetes\\Pages\\FormularioAsignarMedicamentos.aspx.cs",
               "RelativeDocumentMoniker": "Control_Tipos_Diabetes\\Pages\\FormularioAsignarMedicamentos.aspx.cs",
               "ToolTip": "C:\\Users\\Alejandro\\OneDrive\\Escritorio\\Control_Tipos_Diabetes\\Control_Tipos_Diabetes\\Pages\\FormularioAsignarMedicamentos.aspx.cs",
               "RelativeToolTip": "Control_Tipos_Diabetes\\Pages\\FormularioAsignarMedicamentos.aspx.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABQAAAAJAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBQAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-25T07:01:05.18Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FormularioAsignarMedicamentos.aspx",
               "DocumentMoniker": "C:\\Users\\Alejandro\\OneDrive\\Escritorio\\Control_Tipos_Diabetes\\Control_Tipos_Diabetes\\Pages\\FormularioAsignarMedicamentos.aspx",
               "RelativeDocumentMoniker": "Control_Tipos_Diabetes\\Pages\\FormularioAsignarMedicamentos.aspx",
@@ -69,19 +99,6 @@
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-04-25T06:59:22.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MP.Master",
-              "DocumentMoniker": "C:\\Users\\Alejandro\\OneDrive\\Escritorio\\Control_Tipos_Diabetes\\Control_Tipos_Diabetes\\PageMaster\\MP.Master",
-              "RelativeDocumentMoniker": "Control_Tipos_Diabetes\\PageMaster\\MP.Master",
-              "ToolTip": "C:\\Users\\Alejandro\\OneDrive\\Escritorio\\Control_Tipos_Diabetes\\Control_Tipos_Diabetes\\PageMaster\\MP.Master",
-              "RelativeToolTip": "Control_Tipos_Diabetes\\PageMaster\\MP.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-04-06T19:27:35.943Z",
               "EditorCaption": ""
             }
           ]

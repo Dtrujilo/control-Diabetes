@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PageMaster/MP.Master" AutoEventWireup="true" CodeBehind="FormularioAsignarMedicamentos.aspx.cs" Inherits="Control_Tipos_Diabetes.Pages.FormularioAsignarMedicamentos" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PageMaster/MP.Master" AutoEventWireup="true" CodeBehind="FormularioVerMedicamentosAsignados.aspx.cs" Inherits="Control_Tipos_Diabetes.Pages.FormularioVerMedicamentosAsignados" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
     Medicamentos
@@ -20,23 +20,13 @@
             <div class="card-header">
                 <h2 class="card-title text-white text-center" style="text-transform: uppercase; font-weight: 700;">Medicamentos</h2>
             </div>
-            <div class="card-body">
-                <button id="btnsave" type="button" runat="server" class="button is-primary has-text-white" onserverclick="btnsave_ServerClick">
-                    <i class="fa fa-regular fa-floppy-disk" style="margin-right: 0.5em;"></i>
-                    Guardar
-                </button>
-            </div>
             <br />
             <div class="container">
                 <div class="table-responsive">
                     <asp:GridView runat="server" ID="gvmedicamentos" CssClass="table table-borderless table-hover table-sm"
                         AllowPaging="True" PageSize="5" OnPageIndexChanging="gvmedicamentos_PageIndexChanging">
                         <Columns>
-                            <asp:TemplateField>
-                                <ItemTemplate>
-                                    <asp:CheckBox ID="chkMedicamento" runat="server" />
-                                </ItemTemplate>
-                            </asp:TemplateField>
+                            <asp:TemplateField></asp:TemplateField>
                         </Columns>
                         <PagerSettings Mode="NextPrevious" NextPageText="Siguiente" PreviousPageText="Anterior" />
                     </asp:GridView>
